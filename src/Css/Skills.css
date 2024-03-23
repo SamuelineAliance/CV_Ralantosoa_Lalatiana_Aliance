@@ -6,16 +6,16 @@
 .custom-range::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
-  width: 20px; /* Largeur du thumb */
-  height: 20px; /* Hauteur du thumb */
+  width: 0px; /* Largeur du thumb */
+  height: 0px; /* Hauteur du thumb */
   background: #4CAF50; /* Couleur de fond du thumb */
   cursor: pointer;
   margin-top: -8px; /* Déplacer le thumb vers le haut */
 }
 
 .custom-range::-moz-range-thumb {
-  width: 20px;
-  height: 20px;
+  width: 0px;
+  height: 0px;
   background: #4CAF50;
   cursor: pointer;
   margin-top: -8px; /* Déplacer le thumb vers le haut */
@@ -30,7 +30,7 @@
 }
 .custom-range::-webkit-slider-runnable-track {
     width: 100%; /* Largeur de la piste */
-    height: 4px; /* Hauteur de la piste */
+    height: 5px; /* Hauteur de la piste */
     background-color: #ddd; /* Couleur de fond de la piste */
     border-radius: 2px; /* Bord arrondi de la piste */
 }

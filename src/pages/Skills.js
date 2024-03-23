@@ -2,80 +2,74 @@ import React, { Component } from "react";
 import '../Css/Skills.css';
 
 
-class Education extends Component{
+class Skills extends Component{
     render() {
         return (
-            <section className="colorlib-skills" data-section="skills">
-                <div className="colorlib-narrow-content">
-                    <div className="row">
-                        <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-                            <span className="heading-meta">My Specialty</span>
-                            <h2 className="colorlib-heading animate-box">My Skills</h2>
-                        </div>
-                    </div>
-                    <div className="row">
-                        <div className="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-                            <p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
-                        </div>
-                        
+            <div>
+                <section className="colorlib-skills" data-section="skills">
+                    <div className="colorlib-narrow-content">
                         <div className="row">
-                            <div className="col-md-6 animate-box p-4" data-animate-effect="fadeInLeft">
-                                <div className="progress-wrap">
-                                    <h3>Photoshop <span>75%</span></h3>
-                                    <div className="form-group ">
-                                        <input type="range" class="form-control-range custom-range" id="formControlRange" min="0" max="100" value="75"/>
-                                    </div>
-                                </div>
-                                <div className="progress-wrap">
-                                    <h3>Photoshop <span>75%</span></h3>
-                                    <div className="form-group ">
-                                        <input type="range" class="form-control-range custom-range" id="formControlRange" min="0" max="100" value="75"/>
-                                    </div>
-                                </div>
-                                <div className="progress-wrap">
-                                    <h3>Photoshop <span>75%</span></h3>
-                                    <div className="form-group ">
-                                        <input type="range" class="form-control-range custom-range" id="formControlRange" min="0" max="100" value="75"/>
-                                    </div>
-                                </div>
-                                <div className="progress-wrap">
-                                    <h3>Photoshop <span>75%</span></h3>
-                                    <div className="form-group ">
-                                        <input type="range" class="form-control-range custom-range" id="formControlRange" min="0" max="100" value="75"/>
-                                    </div>
-                                </div>
+                            <div className="col-md-12 col-md-offset-3 col-md-pull-3 animate-box text-center" data-animate-effect="fadeInLeft">
+                                <span className="heading-meta">My Specialty</span>
+                                <h2 className="colorlib-heading animate-box">My Skills</h2>
                             </div>
-                            <div className="col-md-6 animate-box p-4" data-animate-effect="fadeInLeft">
-                                <div className="progress-wrap">
-                                    <h3>Photoshop <span>75%</span></h3>
-                                    <div className="form-group ">
-                                        <input type="range" class="form-control-range custom-range" id="formControlRange" min="0" max="100" value="75"/>
+                        </div>
+                        <div className="row">
+                            <div className="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+                            </div>
+                            <div className="row">
+                                <div className="col-md-6 animate-box p-5" data-animate-effect="fadeInLeft">
+                                    <div className="progress-wrap">
+                                        <h5 className="d-flex justify-content-between">HTML 5 <span className="text-black-50">75%</span></h5>
+                                        <div className="form-group ">
+                                            <input type="range" class="form-control-range custom-range" id="formControlRange" min="0" max="100" value="75"/>
+                                        </div>
+                                    </div>
+                                    <div className="progress-wrap">
+                                        <h5 className="d-flex justify-content-between">CSS <span className="text-black-50">50%</span></h5>
+                                        <div className="form-group ">
+                                            <input type="range" class="form-control-range custom-range" id="formControlRange" min="0" max="100" value="50"/>
+                                        </div>
+                                    </div>
+                                    <div className="progress-wrap">
+                                        <h5 className="d-flex justify-content-between">Javascript <span className="text-black-50">40%</span></h5>
+                                        <div className="form-group ">
+                                            <input type="range" class="form-control-range custom-range" id="formControlRange" min="0" max="100" value="40"/>
+                                        </div>
+                                    </div>
+                                    <div className="progress-wrap">
+                                        <h5 className="d-flex justify-content-between">React <span className="text-black-50">30%</span></h5>
+                                        <div className="form-group ">
+                                            <input type="range" class="form-control-range custom-range" id="formControlRange" min="0" max="100" value="30"/>
+                                        </div>
                                     </div>
                                 </div>
-                                <div className="progress-wrap">
-                                    <h3>Photoshop <span>75%</span></h3>
-                                    <div className="form-group ">
-                                        <input type="range" class="form-control-range custom-range" id="formControlRange" min="0" max="100" value="75"/>
+                                <div className="col-md-6 animate-box p-5" data-animate-effect="fadeInLeft">
+                                    <div className="progress-wrap">
+                                        <h5 className="d-flex justify-content-between">PHP <span className="text-black-50">60%</span></h5>
+                                        <div className="form-group ">
+                                            <input type="range" class="form-control-range custom-range" id="formControlRange" min="0" max="100" value="60"/>
+                                        </div>
                                     </div>
-                                </div>
-                                <div className="progress-wrap">
-                                    <h3>Photoshop <span>75%</span></h3>
-                                    <div className="form-group ">
-                                        <input type="range" class="form-control-range custom-range" id="formControlRange" min="0" max="100" value="75"/>
+                                    <div className="progress-wrap">
+                                        <h5 className="d-flex justify-content-between">MongoDB <span className="text-black-50">40%</span></h5>
+                                        <div className="form-group ">
+                                            <input type="range" class="form-control-range custom-range" id="formControlRange" min="0" max="100" value="40"/>
+                                        </div>
                                     </div>
-                                </div>
-                                <div className="progress-wrap">
-                                    <h3>Photoshop <span>75%</span></h3>
-                                    <div className="form-group ">
-                                        <input type="range" class="form-control-range custom-range" id="formControlRange" min="0" max="100" value="75"/>
+                                    <div className="progress-wrap">
+                                        <h5 className="d-flex justify-content-between">Node Js<span className="text-black-50">35%</span></h5>
+                                        <div className="form-group ">
+                                            <input type="range" class="form-control-range custom-range" id="formControlRange" min="0" max="100" value="35"/>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </section>
+                </section>
+            </div>
         );
     }
 }
-export default Education;
+export default Skills;
