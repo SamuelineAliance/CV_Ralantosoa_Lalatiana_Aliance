@@ -1,13 +1,29 @@
+
 import React from "react";
-import '../Css/Home.css';
-import DownloadButton from '../components/Download';
+// import '../Css/Home.css';
 
 function Home() {
     return(
-        <div className="App">
-            <div className="row bg-light p-5 rounded">
+        // <div className="App" style={{ background: 'url(./images/about.jpg)', height:'500px' }}>
+        <div className="App" style={{ background: 'white', height:'600px' }}>
+            <div className="row p-5 rounded">
                 <div className="col-sm-6">
-                    <div className="bg-light p-5 rounded">
+                    <div className="p-4 rounded" style={{ marginTop: '100px' }}>
+                        <div className="col-sm-8 mx-auto">
+                            <h1 className="display-4">Hi, <br/> I'm Aliance</h1>
+						   	<h5>High level experience in cybersecurity, web design and development knowledge, producing quality work. </h5>
+                               
+
+                                <div className="my-5">
+                                    <button className="bg-primary roudend-0 p-3">
+                                        Contact me
+                                    </button>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-sm-6">
+                    <div className=" py-5 rounded">
                         <div className="col-sm-8 mx-auto">
                         <div class="container">
                             <div class="box">
@@ -20,19 +36,6 @@ function Home() {
                                 </div>
                             </div>
                         </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-sm-6">
-                    <div className="bg-light p-5 rounded">
-                        <div className="col-sm-8 mx-auto">
-                            <h1 className="display-4 ">Hi, <br/> I'm Aliance</h1>
-						   	<h5>High level experience in cybersecurity, web design and development knowledge, producing quality work. <a href="https://colorlib.com/" target="_blank"></a></h5>
-							<p className="mt-4">
-                                <a className="btn btn-primary btn-learn">
-                                    <DownloadButton/> <i class="icon-download4"></i>
-                                </a>
-                            </p>
                         </div>
                     </div>
                 </div>

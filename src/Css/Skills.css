@@ -8,7 +8,7 @@
   appearance: none;
   width: 0px; /* Largeur du thumb */
   height: 0px; /* Hauteur du thumb */
-  background: #4CAF50; /* Couleur de fond du thumb */
+  background: #4054b2; /* Couleur de fond du thumb */
   cursor: pointer;
   margin-top: -8px; /* Déplacer le thumb vers le haut */
 }
@@ -16,7 +16,7 @@
 .custom-range::-moz-range-thumb {
   width: 0px;
   height: 0px;
-  background: #4CAF50;
+  background: #4054b2;
   cursor: pointer;
   margin-top: -8px; /* Déplacer le thumb vers le haut */
 }
@@ -24,7 +24,7 @@
 .custom-range::-ms-thumb {
   width: 20px;
   height: 20px;
-  background: #4CAF50;
+  background: #4054b2;
   cursor: pointer;
   margin-top: -8px; /* Déplacer le thumb vers le haut */
 }
@@ -51,13 +51,13 @@
 
 /* Styles pour le range-progress */
 .custom-range::-webkit-slider-runnable-track::-webkit-slider-thumb {
-    background-color: #4CAF50;
+    background-color: #4054b2;
 }
 
 .custom-range::-moz-range-progress {
-    background-color: #4CAF50;
+    background-color: #4054b2;
 }
 
 .custom-range::-ms-fill-lower {
-    background-color: #4CAF50;
+    background-color: #4054b2;
 }

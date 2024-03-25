@@ -1,0 +1,29 @@
+.btn {
+    position: relative;
+    display: inline-flex; /* Permet au contenu du bouton de s'aligner horizontalement */
+    align-items: center; /* Aligne le contenu verticalement au centre */
+    padding: 8px 16px; /* Ajoute du padding pour un meilleur espacement */
+    background-color: #fff; /* Couleur de fond du bouton */
+    border: 1px solid #ccc; /* Bordure autour du bouton */
+    cursor: pointer;
+}
+
+.learnmore{
+    color: #5263ad;
+}
+.arrow {
+    margin-left: 5px; /* Ajoute un espace entre le texte et l'icône */
+    font-size: 16px; /* Taille de police de l'icône */
+    transition: transform 0.3s ease; /* Ajoute une transition fluide */
+}
+
+.btn .arrow {
+    transition: transform 0.3s ease;
+}
+.btn:hover .arrow {
+    transform: translateX(5px); /* Déplace légèrement vers la droite lorsqu'il est survolé */
+}
+
+.btn:hover .learnmore {
+    color: #3f54b6;
+}

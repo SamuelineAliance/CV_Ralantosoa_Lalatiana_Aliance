@@ -1,40 +1,42 @@
 import React, { Component } from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+import CallIcon from '@mui/icons-material/Call';
+import EmailIcon from '@mui/icons-material/Email';
+import LocationIcon from '@mui/icons-material/Room';
 
-class Information extends Component{
+class Information extends Component {
     render() {
         return (
-
-            <div class="col-md-5">
-                <div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
-                    <div class="colorlib-icon">
-                        <i class="icon-globe-outline"></i>
+            <div className="col-md-5 col-sm-5">
+                <div className="row my-2" data-animate-effect="fadeInLeft">
+                    <div className="colorlib-icon  col-md-4 col-sm-4">
+                        <CallIcon  style={{ color: 'rgb(75, 75, 253)', fontSize: 30 }}/>
                     </div>
-                <div class="colorlib-text">
-                    <p><a href="#">info@domain.com</a></p>
-                </div>
-                </div>
-                    <div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
-                        <div class="colorlib-icon">
-                            <i class="icon-map"></i>
-                        </div>
-                    <div class="colorlib-text">
-                        <p>198 West 21th Street, Suite 721 New York NY 10016</p>
+                    <div className="col-8">
+                        <h3 classNameName="">Call</h3 >
+                        <span classNameName=" text-muted">+033 24 820 38</span >
                     </div>
                 </div>
-
-                <div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
-                    <div class="colorlib-icon">
-                        <i class="icon-phone"></i>
+                <div className="row" data-animate-effect="fadeInLeft">
+                    <div className="colorlib-icon col-4">
+                        <EmailIcon  style={{ color: 'rgb(75, 75, 253)', fontSize: 30 }}/>
                     </div>
-                    <div class="colorlib-text">
-                        <p><a href="tel://">+123 456 7890</a></p>
-                        <FontAwesomeIcon icon={faCoffee} />
+                    <div className="colorlib-text col-8">
+                        <h3 classNameName="">Call</h3 >
+                        <span classNameName=" text-muted">Call me</span >
+                    </div>
+                </div>
+                <div className="row" data-animate-effect="fadeInLeft">
+                    <div className="col-4">
+                        <LocationIcon  style={{ color: 'rgb(75, 75, 253)', fontSize: 30 }}/>
+                    </div>
+                    <div className="col-8">
+                        <h3 classNameName="">Location</h3 >
+                        <span classNameName=" text-muted">Morondava</span >
                     </div>
                 </div>
             </div>
         );
     }
 }
+
 export default Information;

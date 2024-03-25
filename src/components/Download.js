@@ -1,4 +1,6 @@
 import React from 'react';
+import DownloadIcone from '@mui/icons-material/Download';
+
 
 
 const handleDownload = () => {
@@ -22,7 +24,8 @@ const handleDownload = () => {
 const DownloadButton = () => {
   return (
     <div onClick={handleDownload}>
-      Télécharger le CV
+      Télécharger le CV 
+      <DownloadIcone  style={{ color: 'rgb(75, 75, 253)', fontSize: 30 }}/>
     </div>
   );
 };

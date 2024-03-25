@@ -1,11 +1,13 @@
 import React, { Component } from "react";
 import '../Css/Skills.css';
+import ArrowBackIcone from '@mui/icons-material/DataObject';
+
 
 
 class Skills extends Component{
     render() {
         return (
-            <div>
+            <div className="container">
                 <section className="colorlib-skills" data-section="skills">
                     <div className="colorlib-narrow-content">
                         <div className="row">
@@ -19,50 +21,72 @@ class Skills extends Component{
                             </div>
                             <div className="row">
                                 <div className="col-md-6 animate-box p-5" data-animate-effect="fadeInLeft">
-                                    <div className="progress-wrap">
-                                        <h5 className="d-flex justify-content-between">HTML 5 <span className="text-black-50">75%</span></h5>
-                                        <div className="form-group ">
-                                            <input type="range" class="form-control-range custom-range" id="formControlRange" min="0" max="100" value="75"/>
+                                    <h5 className="py-4"> 
+                                        <ArrowBackIcone className="arrow" style={{ color: 'rgb(75, 75, 253)', fontSize: 30 }}/>
+                                        <span className="p-4">Font end</span>
+                                    </h5>
+                                    <div className="d-flex justify-content-end">
+                                        <div className="progress-wrap col-10">
+                                            <h5 className="d-flex justify-content-between">HTML 5 <span className="text-black-50">75%</span></h5>
+                                            <div className="form-group ">
+                                                <input type="range" class="form-control-range custom-range" id="formControlRange" min="0" max="100" value="75"/>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div className="progress-wrap">
-                                        <h5 className="d-flex justify-content-between">CSS <span className="text-black-50">50%</span></h5>
-                                        <div className="form-group ">
-                                            <input type="range" class="form-control-range custom-range" id="formControlRange" min="0" max="100" value="50"/>
+                                    <div className="d-flex justify-content-end">
+                                        <div className="progress-wrap col-10">
+                                            <h5 className="d-flex justify-content-between">CSS <span className="text-black-50">50%</span></h5>
+                                            <div className="form-group ">
+                                                <input type="range" class="form-control-range custom-range" id="formControlRange" min="0" max="100" value="50"/>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div className="progress-wrap">
-                                        <h5 className="d-flex justify-content-between">Javascript <span className="text-black-50">40%</span></h5>
-                                        <div className="form-group ">
-                                            <input type="range" class="form-control-range custom-range" id="formControlRange" min="0" max="100" value="40"/>
+                                    <div className="d-flex justify-content-end">
+                                        <div className="progress-wrap col-10">
+                                            <h5 className="d-flex justify-content-between">Javascript <span className="text-black-50">40%</span></h5>
+                                            <div className="form-group ">
+                                                <input type="range" class="form-control-range custom-range" id="formControlRange" min="0" max="100" value="40"/>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div className="progress-wrap">
-                                        <h5 className="d-flex justify-content-between">React <span className="text-black-50">30%</span></h5>
-                                        <div className="form-group ">
-                                            <input type="range" class="form-control-range custom-range" id="formControlRange" min="0" max="100" value="30"/>
+                                    <div className="d-flex justify-content-end">
+                                        <div className="progress-wrap col-10">
+                                            <h5 className="d-flex justify-content-between">React <span className="text-black-50">30%</span></h5>
+                                            <div className="form-group ">
+                                                <input type="range" class="form-control-range custom-range" id="formControlRange" min="0" max="100" value="30"/>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-md-6 animate-box p-5" data-animate-effect="fadeInLeft">
-                                    <div className="progress-wrap">
-                                        <h5 className="d-flex justify-content-between">PHP <span className="text-black-50">60%</span></h5>
-                                        <div className="form-group ">
-                                            <input type="range" class="form-control-range custom-range" id="formControlRange" min="0" max="100" value="60"/>
+                                    <h5 className="py-4"> 
+                                        <ArrowBackIcone className="arrow" style={{ color: 'rgb(75, 75, 253)', fontSize: 30 }}/>
+                                        <span className="p-4">Back end</span>
+                                    </h5>
+                                    <div className="d-flex justify-content-end">
+                                        <div className="progress-wrap col-10">
+                                            <h5 className="d-flex justify-content-between">PHP <span className="text-black-50">60%</span></h5>
+                                            <div className="form-group ">
+                                                <input type="range" class="form-control-range custom-range" id="formControlRange" min="0" max="100" value="60"/>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div className="progress-wrap">
+                                <div className="d-flex justify-content-end">
+                                    <div className="progress-wrap col-10">
                                         <h5 className="d-flex justify-content-between">MongoDB <span className="text-black-50">40%</span></h5>
                                         <div className="form-group ">
                                             <input type="range" class="form-control-range custom-range" id="formControlRange" min="0" max="100" value="40"/>
                                         </div>
                                     </div>
-                                    <div className="progress-wrap">
+                                </div>
+                                <div className="d-flex justify-content-end">
+                                    <div className="progress-wrap col-10">
                                         <h5 className="d-flex justify-content-between">Node Js<span className="text-black-50">35%</span></h5>
                                         <div className="form-group ">
                                             <input type="range" class="form-control-range custom-range" id="formControlRange" min="0" max="100" value="35"/>
                                         </div>
                                     </div>
+                                </div>
                                 </div>
                             </div>
                         </div>
