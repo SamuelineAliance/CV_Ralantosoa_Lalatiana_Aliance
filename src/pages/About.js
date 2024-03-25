@@ -26,14 +26,9 @@ function About() {
                                     <div className="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
                                         <div className="col-md-12">
                                             <div className="about-desc">
-                                                <p className="text-muted"><strong>Hi I'm Aliance Ford</strong> On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin </p>
-                                                <p className="text-muted">On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin </p>
-                                                
-                                                <p className="mt-4">
-                                                    <button className="btn btn-primary btn-learn">
-                                                        <DownloadButton/>
-                                                    </button>
-                                                </p>
+                                                <p ><strong>Hi I'm Aliance Ford</strong> On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin </p>
+                                                <p >On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin </p>
+                                                <DownloadButton/>
                                             </div>
                                         </div>
                                     </div>

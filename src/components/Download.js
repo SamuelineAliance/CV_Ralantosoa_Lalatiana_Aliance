@@ -23,10 +23,10 @@ const handleDownload = () => {
 
 const DownloadButton = () => {
   return (
-    <div onClick={handleDownload}>
-      Télécharger le CV 
-      <DownloadIcone  style={{ color: 'rgb(75, 75, 253)', fontSize: 30 }}/>
-    </div>
+    <button onClick={handleDownload} class="button button--wayra button--border-thin button--round-s">
+      Download CV <DownloadIcone wtyle={{ width: '250px !important', }}/>
+      
+    </button>
   );
 };
 

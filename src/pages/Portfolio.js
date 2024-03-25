@@ -12,18 +12,20 @@ class Portfolio extends Component{
                                 <h2 className="colorlib-heading animate-box mb-5">My porfolio</h2>
                             </div>
                         </div>
-                        <div class="card mb-3 border-0" with="max-width: 540px;">
+                        <div class="card mb-3 border-0  ContainerPorfolio" with="max-width: 540px;">
                             <div class="row no-gutters d-flex justify-content-center">
                                 <div class="col-md-5 m-2">
                                     <img src="./portfolio.png" class="card-img" alt="..." />
                                 </div>
                                 <div class="col-md-4">
                                     <div class="card-body">
-                                        <h5 class="card-title">My Porfolio</h5>
-                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                        <h5 class="card-title TextDark">My Porfolio</h5>
+                                        <p class="card-text TextDark">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                         <p class="card-text">
                                             <small class="text-muted">
-                                                <button class="btn btn-primary mt-4">Demo</button>
+                                            <button class="button button--wayra button--border-thin button--round-s">
+                                                Demo
+                                            </button>
                                             </small>
                                         </p>
                                     </div>

@@ -1,5 +1,4 @@
 import React from "react";
-
 import Header from "./components/Header";
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -9,6 +8,7 @@ import Service from "./pages/Service";
 import Footer from "./components/Footer";
 import Contact from "./pages/Contact";
 
+import './Css/App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -22,6 +22,7 @@ function App() {
       <Portfolio />
       <Contact />
       <Footer/>
+      
     </div>
   );
 }

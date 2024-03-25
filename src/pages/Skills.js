@@ -27,7 +27,7 @@ class Skills extends Component{
                                     </h5>
                                     <div className="d-flex justify-content-end">
                                         <div className="progress-wrap col-10">
-                                            <h5 className="d-flex justify-content-between">HTML 5 <span className="text-black-50">75%</span></h5>
+                                            <h5 className="d-flex justify-content-between">HTML 5 <span className="text-black-50 ProgressText">75%</span></h5>
                                             <div className="form-group ">
                                                 <input type="range" class="form-control-range custom-range" id="formControlRange" min="0" max="100" value="75"/>
                                             </div>
@@ -35,7 +35,7 @@ class Skills extends Component{
                                     </div>
                                     <div className="d-flex justify-content-end">
                                         <div className="progress-wrap col-10">
-                                            <h5 className="d-flex justify-content-between">CSS <span className="text-black-50">50%</span></h5>
+                                            <h5 className="d-flex justify-content-between">CSS <span className="text-black-50 ProgressText">50%</span></h5>
                                             <div className="form-group ">
                                                 <input type="range" class="form-control-range custom-range" id="formControlRange" min="0" max="100" value="50"/>
                                             </div>
@@ -43,7 +43,7 @@ class Skills extends Component{
                                     </div>
                                     <div className="d-flex justify-content-end">
                                         <div className="progress-wrap col-10">
-                                            <h5 className="d-flex justify-content-between">Javascript <span className="text-black-50">40%</span></h5>
+                                            <h5 className="d-flex justify-content-between">Javascript <span className="text-black-50 ProgressText">40%</span></h5>
                                             <div className="form-group ">
                                                 <input type="range" class="form-control-range custom-range" id="formControlRange" min="0" max="100" value="40"/>
                                             </div>
@@ -51,7 +51,7 @@ class Skills extends Component{
                                     </div>
                                     <div className="d-flex justify-content-end">
                                         <div className="progress-wrap col-10">
-                                            <h5 className="d-flex justify-content-between">React <span className="text-black-50">30%</span></h5>
+                                            <h5 className="d-flex justify-content-between">React <span className="text-black-50 ProgressText">30%</span></h5>
                                             <div className="form-group ">
                                                 <input type="range" class="form-control-range custom-range" id="formControlRange" min="0" max="100" value="30"/>
                                             </div>
@@ -65,7 +65,7 @@ class Skills extends Component{
                                     </h5>
                                     <div className="d-flex justify-content-end">
                                         <div className="progress-wrap col-10">
-                                            <h5 className="d-flex justify-content-between">PHP <span className="text-black-50">60%</span></h5>
+                                            <h5 className="d-flex justify-content-between">PHP <span className="text-black-50 ProgressText">60%</span></h5>
                                             <div className="form-group ">
                                                 <input type="range" class="form-control-range custom-range" id="formControlRange" min="0" max="100" value="60"/>
                                             </div>
@@ -73,7 +73,7 @@ class Skills extends Component{
                                     </div>
                                 <div className="d-flex justify-content-end">
                                     <div className="progress-wrap col-10">
-                                        <h5 className="d-flex justify-content-between">MongoDB <span className="text-black-50">40%</span></h5>
+                                        <h5 className="d-flex justify-content-between">MongoDB <span className="text-black-50 ProgressText">40%</span></h5>
                                         <div className="form-group ">
                                             <input type="range" class="form-control-range custom-range" id="formControlRange" min="0" max="100" value="40"/>
                                         </div>
@@ -81,7 +81,7 @@ class Skills extends Component{
                                 </div>
                                 <div className="d-flex justify-content-end">
                                     <div className="progress-wrap col-10">
-                                        <h5 className="d-flex justify-content-between">Node Js<span className="text-black-50">35%</span></h5>
+                                        <h5 className="d-flex justify-content-between">Node Js<span className="text-black-50 ProgressText">35%</span></h5>
                                         <div className="form-group ">
                                             <input type="range" class="form-control-range custom-range" id="formControlRange" min="0" max="100" value="35"/>
                                         </div>

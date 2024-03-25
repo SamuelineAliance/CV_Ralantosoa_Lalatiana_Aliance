@@ -1,6 +1,5 @@
 import React from "react";
-import Brightness4Icone from '@mui/icons-material/NightlightOutlined';
-
+import DarkMode from "./Darkmode";
 
 function Header() {
     return(
@@ -9,7 +8,7 @@ function Header() {
                     
                     <div className="collapse navbar-collapse justify-content-md-center" id="navbarCollapse">
                         <ul className="navbar-nav">
-                            <li className="nav-item">
+                            <li className="nav-item text-secondary ">
                                 Aliance
                             </li>
                         </ul>
@@ -36,7 +35,7 @@ function Header() {
                     <div className="collapse navbar-collapse justify-content-md-center" id="navbarCollapse">
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                                <Brightness4Icone />
+                                <DarkMode />
                             </li>
                         </ul>
                     </div>

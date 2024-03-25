@@ -22,28 +22,31 @@ class Contact extends Component{
                             <div className="col-sm-7 col-md-7">
                                 <form className="">
                                     <div class="form-group row">
-                                        <div class="col-sm-10">
-                                            <div class="form-floating mb-4">
-                                                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" />
-                                                <label for="floatingInput">Name</label>
+                                        <div class="col-sm-10 ">
+                                            <div class="form-floating mb-4 ">
+                                                <input type="email" class="form-control contactStyle" id="floatingInput" placeholder="name@example.com" />
+                                                <label for="floatingInput" className="text-secondary">Name</label>
                                             </div>
                                         </div>
                                         <div class="col-sm-10">
                                             <div class="form-floating mb-4">
                                                 <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" />
-                                                <label for="floatingInput">Email</label>
+                                                <label for="floatingInput" className="text-secondary">Email</label>
                                             </div>
                                         </div>
                                         <div class="col-sm-10">
                                             <div class="form-floating mb-4">
                                                 <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" />
-                                                <label for="floatingInput">Project</label>
+                                                <label for="floatingInput " className="text-secondary">Project</label>
                                             </div>
                                         </div>
                                         <div class="col-sm-10 mb-4">
                                             <textarea name="" id="message" cols="30" rows="7" class="form-control" placeholder="Message" height="30"></textarea>
                                         </div>
                                     </div>
+                                    <button class="button button--wayra button--border-thin button--round-s">
+                                        Send Message
+                                    </button>
                                 </form>
                             </div>
                         </div>
