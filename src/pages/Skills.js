@@ -8,7 +8,7 @@ class Skills extends Component{
     render() {
         return (
             <div className="container">
-                <section className="colorlib-skills" data-section="skills">
+                <section id="skills" className="colorlib-skills" data-section="skills">
                     <div className="colorlib-narrow-content">
                         <div className="row">
                             <div className="col-md-12 col-md-offset-3 col-md-pull-3 animate-box text-center" data-animate-effect="fadeInLeft">

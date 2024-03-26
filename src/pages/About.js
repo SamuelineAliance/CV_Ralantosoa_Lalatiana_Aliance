@@ -5,14 +5,12 @@ import DownloadButton from '../components/Download';
 
 function About() {
     return(
-        <div className="">
-         <section className="colorlib-about" data-section="about">
-				<div className="colorlib-narrow-content">
-					<div className="row">
+        <div className="container">
+					<div id="about" className="row">
 						<div className="col-md-12">
 							<div className="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
 								<div className="col-md-12">
-									<div className="about-desc text-center mb-4 p-4">
+									<div  className="about-desc text-center mb-4 p-4">
 										<span className="heading-meta">About Us</span>
 										<h2 className="colorlib-heading">Who Am I?</h2>
 									</div>
@@ -36,8 +34,6 @@ function About() {
 							</div>
 						</div>
 					</div>
-				</div>
-			</section>
         </div>
     )
 }

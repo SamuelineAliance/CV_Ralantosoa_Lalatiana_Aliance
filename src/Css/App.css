@@ -39,7 +39,7 @@
 body {
     font-family: Arial, sans-serif;
     font-weight: 200;
-    background-color: #cfcaca;
+    background-color: #ffffff;
   }
 
   .dark{
@@ -54,6 +54,10 @@ body {
   }
   .dark .ContainerPorfolio{
 	background-color: #1b2347;
+  }
+  .dark .EducationDark{
+	background-color: #1b2347;
+	color: #ffffff;
   }
   .dark .contactStyle{
     background-color: var("--brand-color-6: #4054b2");

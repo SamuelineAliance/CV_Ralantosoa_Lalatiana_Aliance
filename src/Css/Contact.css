@@ -1,0 +1,12 @@
+.dark-bg {
+    background-color: #707070; /* ou n'importe quelle couleur grise foncée que vous préférez */
+    color: #fff; /* couleur du texte */
+}
+.dark-bg:hover {
+    background-color: #aaa2a2; /* ou n'importe quelle couleur grise foncée que vous préférez */
+    color: #fff; /* couleur du texte */
+}
+.dark-bg:active {
+    background-color: #aaa2a2; /* ou n'importe quelle couleur grise foncée que vous préférez */
+    color: #fff; /* couleur du texte */
+}

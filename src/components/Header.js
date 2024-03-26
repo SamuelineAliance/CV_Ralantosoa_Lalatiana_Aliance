@@ -16,19 +16,22 @@ function Header() {
                     <div className="collapse navbar-collapse justify-content-md-end" id="navbarCollapse">
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="">Home</a>
+                                <a className="nav-link active" aria-current="page" href="#home">Home</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="">About</a>
+                                <a className="nav-link" href="#about">About</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="">Skills</a>
+                                <a className="nav-link" href="#skills">Skills</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="">Sevice</a>
+                                <a className="nav-link" href="#service">Sevice</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="">Contact me</a>
+                                <a className="nav-link" href="#portfolio">Portfolio</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="#contact">Contact me</a>
                             </li>
                         </ul>
                     </div>
