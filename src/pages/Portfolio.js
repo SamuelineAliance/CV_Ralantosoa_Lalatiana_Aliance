@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from 'react-router-dom';
 import '../Css/Portfolio.css';
 
 class Portfolio extends Component{
@@ -8,24 +9,22 @@ class Portfolio extends Component{
                 <div class="container">
                         <div className="row" id="portfolio">
                             <div className="col-md-12 col-md-offset-3 col-md-pull-3 animate-box text-center" data-animate-effect="fadeInLeft">
-                                <span className="heading-meta">My Specialty</span>
+                                <span className="heading-meta">My project</span>
                                 <h2 className="colorlib-heading animate-box mb-5">My porfolio</h2>
                             </div>
                         </div>
                         <div class="card mb-3 border-0  ContainerPorfolio" with="max-width: 540px;">
                             <div class="row no-gutters d-flex justify-content-center">
-                                <div class="col-md-5 m-2">
-                                    <img src="./portfolio.png" class="card-img" alt="..." />
+                                <div class="col-lg-5 m-2">
+                                    <img src="./images/portfolio.PNG" class="card-img" alt="..." />
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-lg-4">
                                     <div class="card-body">
                                         <h5 class="card-title TextDark">My Porfolio</h5>
-                                        <p class="card-text TextDark">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                        <p class="card-text TextDark">Crafting an adaptive website equipped with UI components and captivating animated interactions, ensuring seamless user experience across all devices.</p>
                                         <p class="card-text">
-                                            <small class="text-muted">
-                                            <button class="button button--wayra button--border-thin button--round-s">
-                                                Demo
-                                            </button>
+                                            <small class="text-muted" style={{ with: "200px !important" }}>
+                                                <Link to="/failed" type="button" class="text-decoration-none button button--wayra button--border-thin button--round-s d-flex justify-content-center" >Demo</Link>
                                             </small>
                                         </p>
                                     </div>

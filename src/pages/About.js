@@ -17,15 +17,15 @@ function About() {
 								</div>
 							</div>
 							<div className="row d-flex justify-content-center">
-                                <div className="col-md-3 my-2" >
+                                <div className="col-lg-3 my-2" >
                                     <img src="./images/about.jpg" class="card-img" alt="..." style={{ borderRadius: '10px' }} />
                                 </div>
-                                <div className="col-md-4">
+                                <div className="col-lg-4">
                                     <div className="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
                                         <div className="col-md-12">
                                             <div className="about-desc">
-                                                <p ><strong>Hi I'm Aliance Ford</strong> On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin </p>
-                                                <p >On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin </p>
+                                                <p ><strong>Hi I'm Aliance </strong>mobile app developer with a wealth of expertise and years of practice, specializing in mobile technologies and UI/UX design, dedicated to delivering top-notch solutions</p>
+                                                <p >Proficient in crafting, enhancing, securing, and supporting a variety of mobile applications for clients spanning diverse industries.</p>
                                                 <DownloadButton/>
                                             </div>
                                         </div>

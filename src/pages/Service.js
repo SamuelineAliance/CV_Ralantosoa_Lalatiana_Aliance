@@ -33,31 +33,49 @@ class Service extends React.Component {
                             </div>
                         
                             <div className="row mt-4 d-flex justify-content-center">
-                                <div className="col-md-3 animate-box" data-animate-effect="fadeInRight">
+                                <div className="col-lg-3 animate-box" data-animate-effect="fadeInRight">
                                     <div className="services color-2">
                                         <span className="icon2">
                                             <WebIcon  style={{ color: 'rgb(75, 75, 253)', fontSize: 30 }}/>
                                         </span>
                                         <h3>Web Design</h3>
+                                        <p>I creating, maintaining and online applications. </p>
                                         <button type="button" class="btn border-0">
+                                            
                                             <span class="text learnmore">Learn more</span>
                                                 <ChevronRightIcone className="arrow" style={{ color: 'rgb(75, 75, 253)', fontSize: 30 }}/>
                                         </button>
                                     </div>
                                 </div>
-                                <div className="col-md-3 animate-box" data-animate-effect="fadeInBottom">
-                                    <div className="services color-4">
+                                <div className="col-lg-3 animate-box" data-animate-effect="fadeInBottom">
+                                    <div className="services color-4 py-4">
                                         <span className="icon2">
                                             <PhoneAndroidIcon  style={{ color: 'rgb(75, 75, 253)', fontSize: 30 }}/>
                                         </span>
-                                        <h3>Application</h3>
+                                        <h3 className="">Application</h3>
+                                        <p>I creating, maintaining and online applications. </p>
+
                                         <button type="button" class="btn border-0">
                                             <span class="text learnmore">Learn more</span>
                                                 <ChevronRightIcone className="arrow" style={{ color: 'rgb(75, 75, 253)', fontSize: 30 }}/>
                                         </button>
                                     </div>
                                 </div> 
-                                <Profile  info={this.state.user}/>
+                                <div className="col-lg-3 animate-box" data-animate-effect="fadeInBottom">
+                                    <div className="services color-4 py-4">
+                                        <span className="icon2">
+                                            <WebIcon  style={{ color: 'rgb(75, 75, 253)', fontSize: 30 }}/>
+                                        </span>
+                                        <h3 className="">Software</h3>
+                                        <p>I creating, maintaining and online applications. </p>
+
+                                        <button type="button" class="btn border-0">
+                                            <span class="text learnmore">Learn more</span>
+                                                <ChevronRightIcone className="arrow" style={{ color: 'rgb(75, 75, 253)', fontSize: 30 }}/>
+                                        </button>
+                                    </div>
+                                </div> 
+                                {/* <Profile  info={this.state.user}/> */}
                             </div>       
                         </div>            
                     </div>

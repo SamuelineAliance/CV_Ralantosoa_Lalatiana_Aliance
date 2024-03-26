@@ -16,11 +16,8 @@ class Skills extends Component{
                                 <h2 className="colorlib-heading animate-box">My Skills</h2>
                             </div>
                         </div>
-                        <div className="row">
-                            <div className="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-                            </div>
                             <div className="row">
-                                <div className="col-md-6 animate-box p-5" data-animate-effect="fadeInLeft">
+                                <div className="col-lg-6 animate-box p-5" data-animate-effect="fadeInLeft">
                                     <h5 className="py-4"> 
                                         <ArrowBackIcone className="arrow" style={{ color: 'rgb(75, 75, 253)', fontSize: 30 }}/>
                                         <span className="p-4">Font end</span>
@@ -58,7 +55,7 @@ class Skills extends Component{
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-md-6 animate-box p-5" data-animate-effect="fadeInLeft">
+                                <div className="col-lg-6 animate-box p-5" data-animate-effect="fadeInLeft">
                                     <h5 className="py-4"> 
                                         <ArrowBackIcone className="arrow" style={{ color: 'rgb(75, 75, 253)', fontSize: 30 }}/>
                                         <span className="p-4">Back end</span>
@@ -90,7 +87,6 @@ class Skills extends Component{
                                 </div>
                             </div>
                         </div>
-                    </div>
                 </section>
             </div>
         );

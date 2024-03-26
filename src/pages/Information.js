@@ -1,69 +1,52 @@
+import React, { Component } from "react";
 import CallIcon from '@mui/icons-material/Call';
 import EmailIcon from '@mui/icons-material/Email';
-import RoomIcon from '@mui/icons-material/Room';
-import React from "react";
-import { makeStyles } from '@mui/styles';
+import LocationIcon from '@mui/icons-material/Room';
 
-const useStyles = makeStyles({
-  contactRow: {
-    display: 'flex',
-    alignItems: 'center',
-    marginBottom: '10px',
-    animation: 'fadeInLeft',
-  },
-  iconWrapper: {
-    flex: '0 0 30px', // Fixed width for icon wrapper
-  },
-  icon: {
-    color: 'rgb(75, 75, 253)',
-    fontSize: '30px',
-  },
-  infoWrapper: {
-    flex: '1', // Expand to fill remaining space
-    marginLeft: '10px', // Add some space between icon and text
-  },
-  heading: {
-    margin: '0',
-  },
-  text: {
-    color: 'rgba(0, 0, 0, 0.54)', // Muted text color
-  },
-});
+class Information extends Component {
+    render() {
+        return (
+            <div className="">
+                        < div className="col-lg-5">
+							<div className="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+								
+                                <div className="colorlib-text">
+                                    <p className="TextDark">Contact</p >
+									<p className="text-secondary">+0332156367</p>
+								</div>
+                                <div className="colorlib-icon">
+                                    <CallIcon  style={{ color: 'rgb(75, 75, 253)', fontSize: 30 }} className="my-4"/>
+								</div>
+								
+							</div>
+                            <div className="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+								
+                                <div className="colorlib-text">
+                                    <p className="TextDark">Email</p >
+									<p className="text-secondary">ralantosoalalatiana@gmail.com</p>
+								</div>
+                                <div className="colorlib-icon">
+                                    <EmailIcon  style={{ color: 'rgb(75, 75, 253)', fontSize: 30 }} className="my-4"/>
+								</div>
+								
+							</div>
 
-function Information() {
-  const classes = useStyles();
+							<div className="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+								
+                                <div className="colorlib-text ">
+                                    <p className="TextDark">Location</p >
+									<p className="text-secondary ">Morondava-MAdagascar</p>
+								</div>
+                                <div className="colorlib-icon">
+                                    <LocationIcon  style={{ color: 'rgb(75, 75, 253)', fontSize: 30 }} className="my-4"/>
+								</div>
+								
+							</div>
+						</div>
 
-  return (
-    <div className="col-md-5 col-sm-5">
-      <div className={classes.contactRow}>
-        <div className={classes.iconWrapper}>
-          <CallIcon className={classes.icon} />
-        </div>
-        <div className={classes.infoWrapper}>
-          <h3 className={classes.heading}>Call</h3>
-          <span className={classes.text}>+033 24 820 38</span>
-        </div>
-      </div>
-      <div className={classes.contactRow}>
-        <div className={classes.iconWrapper}>
-          <EmailIcon className={classes.icon} />
-        </div>
-        <div className={classes.infoWrapper}>
-          <h3 className={classes.heading}>Email</h3>
-          <span className={classes.text}>example@example.com</span>
-        </div>
-      </div>
-      <div className={classes.contactRow}>
-        <div className={classes.iconWrapper}>
-          <RoomIcon className={classes.icon} />
-        </div>
-        <div className={classes.infoWrapper}>
-          <h3 className={classes.heading}>Location</h3>
-          <span className={classes.text}>Morondava</span>
-        </div>
-      </div>
-    </div>
-  );
+            </div>
+        );
+    }
 }
 
 export default Information;

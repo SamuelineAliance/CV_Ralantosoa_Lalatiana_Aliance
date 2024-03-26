@@ -7,7 +7,7 @@ class Profile extends Component{
     
     render() {
         return (
-            <div className="col-md-3 animate-box" data-animate-effect="fadeInRight">
+            <div className="col-lg-3 animate-box" data-animate-effect="fadeInRight">
                 <div className="services color-2">
                     <span className="icon2">
                         <WebIcon  style={{ color: 'rgb(75, 75, 253)', fontSize: 30 }}/>

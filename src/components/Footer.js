@@ -1,33 +1,33 @@
 import React from "react";
 import '../Css/Footer.css';
 import FacebookIcone from '@mui/icons-material/Facebook';
-import GoogleIcone from '@mui/icons-material/Google';
 import GitHubIcone from '@mui/icons-material/GitHub';
+import LinkedInIcone from '@mui/icons-material/LinkedIn';
 
 
 function Footer() {
     return(
         <footer class="footer">
-            <div class="container-fluid  px-5 py-4">
-                <div class="row information container text-white">
-                    <div class="col-sm-4">
+            <div class="container py-4">
+                <div class="row information text-white d-flex justify-content-center">
+                    <div class="col-lg-3">
                         <h1 className="font-weight-bold display-4 ">Aliance</h1>
                     </div>
-                    <div class="col-sm-4 d-flex align-items-center ">
+                    <div class="col-lg-3 d-flex align-items-center ">
 
-                        <a className="nav-link p-2" href="">Sevice</a>
-                        <a className="nav-link p-2" href="">Porfolio</a>
-                        <a className="nav-link p-2" href="">Contact Me</a>
+                        <a className="nav-link p-2" href="#service">Sevice</a>
+                        <a className="nav-link p-2" href="#portfolio">Porfolio</a>
+                        <a className="nav-link p-2" href="#contact">Contact Me</a>
                     </div>
-                    <div class="col-sm-4 ">
+                    <div class="col-lg-3 ">
                         <section class="text-center mt-3">
-                            <a href="" class="text-white me-4">
-                                <FacebookIcone />
+                            <a href="https://www.facebook.com/anceliah.noeliah" target="_blank" rel="noopener noreferrer" class="text-white me-4">
+                                <FacebookIcone/>
                             </a>
-                            <a href="" class="text-white me-4">
-                                <GoogleIcone/>
+                            <a href="https://LinkedIn.com/SamuelineAliance" class="text-white me-4">
+                                <LinkedInIcone />
                             </a>
-                            <a href="" class="text-white me-4">
+                            <a href="https://LinkedIn.com/SamuelineAliance" class="text-white me-4">
                                 <GitHubIcone />
                             </a>
                         </section>

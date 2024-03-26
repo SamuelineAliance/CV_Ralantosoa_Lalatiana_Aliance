@@ -1,19 +1,23 @@
-import React from "react";
+
 import DarkMode from "./Darkmode";
+import React, { useContext } from 'react';
+import DataContext from '../Data/DataContext';
 
 function Header() {
+
+    const { userData } = useContext(DataContext);
     return(
             <nav className="navbar navbar-expand-lg navbar-light fixed-top bg-white p-3  border border-top-0" aria-label="Twelfth navbar example">
                 <div className="container-fluid">
                     
-                    <div className="collapse navbar-collapse justify-content-md-center" id="navbarCollapse">
+                    <div className="collapse navbar-collapse justify-content-md-end" id="navbarCollapse">
                         <ul className="navbar-nav">
                             <li className="nav-item text-secondary ">
-                                Aliance
+                            {userData.name}
                             </li>
                         </ul>
                     </div>
-                    <div className="collapse navbar-collapse justify-content-md-end" id="navbarCollapse">
+                    <div className="collapse navbar-collapse justify-content-md-center" id="navbarCollapse">
                         <ul className="navbar-nav">
                             <li className="nav-item">
                                 <a className="nav-link active" aria-current="page" href="#home">Home</a>
