@@ -34,8 +34,8 @@ function Footer() {
                     </div>
                 </div>
                  <hr class="my-3" />
-                <div  class="text-center p-1" style={{backgroundcolor: "rgba(0, 0, 0, 0.2)"}} >
-                    © 2020 Copyright: Aliance
+                <div  class="text-center p-1 text-secondary" style={{backgroundcolor: "rgba(0, 0, 0, 0.2)"}} >
+                    © 2024 Copyright: Aliance
                 </div>
             </div>
         </footer>

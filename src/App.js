@@ -33,7 +33,7 @@ const ParentComponent = () => {
         <Portfolio />
         <Contact />
         <div className="fixed-bottom d-flex justify-content-end m-4">
-          <Button onClick={scrollToTop} className="btn1"><KeyboardArrowUpIcon /></Button>
+          <Button onClick={scrollToTop} className="btn1 button--wayra button--border-thin button--round-s text-decoration-none"><KeyboardArrowUpIcon /></Button>
         </div>
         <Footer />
       </div>

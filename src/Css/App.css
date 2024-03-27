@@ -139,13 +139,19 @@ body {
 	background-color: #fff;
 }
 .btn1{
-  position: relative;
-  display: inline-flex; /* Permet au contenu du bouton de s'aligner horizontalement */
-  align-items: center; /* Aligne le contenu verticalement au centre */
-  padding: 8px 16px; /* Ajoute du padding pour un meilleur espacement */
-  background-color: #3f51b5; /* Couleur de fond du bouton */
-  border: 1px solid #ccc; /* Bordure autour du bouton */
-  cursor: pointer;
+	float: center;
+	min-width: 40px;
+	max-width: 60px;
+	display: block;
+	margin: 1em;
+	border: none;
+	vertical-align: middle;
+	position: relative;
+	z-index: 1;
+	-webkit-backface-visibility: hidden;
+	-moz-osx-font-smoothing: grayscale;
+    background: #7986cb;
+	color: #ECEFF1;
 }
 
 .dark .btn1{
