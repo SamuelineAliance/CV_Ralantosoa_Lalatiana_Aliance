@@ -16,7 +16,6 @@ const ProfileData = (props) => {
                 <span class="text learnmore">Learn More</span>
                    <ChevronRightIcone className="arrow" style={{ color: 'rgb(75, 75, 253)', fontSize: 30 }}/>
              </button>
-             
         </div>
     )
 }

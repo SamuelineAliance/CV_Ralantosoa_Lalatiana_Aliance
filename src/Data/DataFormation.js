@@ -2,14 +2,14 @@ const DataEducation = [
     {
         id: 1,
         nom: "Formation IOT",
-        information: "Debutante",
+        information: "Arduino and Haking",
         databstarget: "collapseOneF",
         heading: "headingOneF"
       },
       {
         id: 2,
         nom: "Formation Hacker Ethique",
-        information: "Debutante",
+        information: "Juste Information",
         databstarget: "collapseTwoF",
         heading: "headingTwoF"
       }

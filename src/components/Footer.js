@@ -16,7 +16,7 @@ function Footer() {
                     <div class="col-lg-3 d-flex align-items-center ">
 
                         <a className="nav-link p-2" href="#service">Sevice</a>
-                        <a className="nav-link p-2" href="#portfolio">Porfolio</a>
+                        <a className="nav-link p-2" href="#portfolio">Portfolio</a>
                         <a className="nav-link p-2" href="#contact">Contact Me</a>
                     </div>
                     <div class="col-lg-3 ">
@@ -27,7 +27,7 @@ function Footer() {
                             <a href="https://LinkedIn.com/SamuelineAliance" class="text-white me-4">
                                 <LinkedInIcone />
                             </a>
-                            <a href="https://LinkedIn.com/SamuelineAliance" class="text-white me-4">
+                            <a href="https://github.com/SamuelineAliance" class="text-white me-4">
                                 <GitHubIcone />
                             </a>
                         </section>

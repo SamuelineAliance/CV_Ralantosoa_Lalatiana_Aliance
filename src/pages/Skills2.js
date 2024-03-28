@@ -49,12 +49,12 @@ class Skills2 extends Component{
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                                    </div>
                                     <div class="accordion-item col-6">
                                         <h4 class="accordion-header" id="headingTwo">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                            Back-End
-                                        </button>
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                Back-End
+                                            </button>
                                         </h4>
                                         <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">

@@ -8,13 +8,13 @@
     cursor: pointer;
 }
 .dark .btn{
-    background-color: #3f51b5; /* Couleur de fond du bouton */
+    background-color: #1b2347; /* Couleur de fond du bouton */
 }
 .dark .learnmore{
     color: #fff;
 }
 .learnmore{
-    color: #5263ad;
+    color: #1b2347;
 }
 .arrow {
     margin-left: 5px; /* Ajoute un espace entre le texte et l'icône */
@@ -31,4 +31,9 @@
 
 .btn:hover .learnmore {
     color: #3f54b6;
+}
+
+.dark .btn:hover .learnmore {
+    color: #ffffff;
+    background-color: #1b2347;
 }

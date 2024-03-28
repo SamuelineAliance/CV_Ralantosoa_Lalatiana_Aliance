@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Button } from 'react-bootstrap';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from "./components/Header";
@@ -15,6 +15,7 @@ import { DataProvider } from './Data/DataContext';
 import './Css/App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
+import Confirmation from "./pages/Confirmation";
 
 const ParentComponent = () => {
   const scrollToTop = () => {
@@ -47,6 +48,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<ParentComponent />} />
+          <Route path="/Confirmation" element={<Confirmation />} />
           <Route path="*" element={<ErrorPage />} />
         </Routes>
       </Router>

@@ -43,9 +43,9 @@ class Contact extends Component{
                                             <textarea name="" id="message" cols="30" rows="7" class="form-control" placeholder="Message" height="30"></textarea>
                                         </div>
                                     </div>
-                                    <button class="button button--wayra button--border-thin button--round-s" >
+                                    <a class="button button--wayra button--border-thin button--round-s text-decoration-none" href="/Confirmation">
                                         Send Message
-                                    </button>
+                                    </a>
                                 </form>
                             </div>
                         </div>

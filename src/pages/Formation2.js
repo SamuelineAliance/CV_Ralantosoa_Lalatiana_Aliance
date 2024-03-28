@@ -1,7 +1,7 @@
 import React from "react"; 
 import ArrowBackIcone from '@mui/icons-material/Work';
 
-function Education2({ datasform }) {
+function Formation2({ datasform }) {
     return (
     
                                 <>
@@ -34,4 +34,4 @@ function Education2({ datasform }) {
     );
 }
 
-export default Education2;
+export default Formation2;

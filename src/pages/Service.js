@@ -1,21 +1,16 @@
 import React from "react";
 import '../Css/Service.css';
 import '../Css/About.css';
-import Profile from "./speciality/Profile";
 import PhoneAndroidIcon from '@mui/icons-material/PhoneAndroid';
 import ChevronRightIcone from '@mui/icons-material/ChevronRight';
 import WebIcon from '@mui/icons-material/Web';
+// import DataService from "../Data/DataService";
+// import ServiceInformation from "./ServiceInformation";
 
 
 class Service extends React.Component {
     
-    state = {
-        user: {
-            name: 'Software',
-            detaille:'',
-            icone:''
-        }
-    }
+
     render () {
         return(
             <div className="container">
@@ -28,10 +23,10 @@ class Service extends React.Component {
                             </div>
                         </div>
                         <div className="row" data-animate-effect="fadeInLeft">
-                            <div className="col-md-12 animate-box mt-4" data-animate-effect="fadeInLeft">
-    
-                            </div>
                         
+                        {/* <ServiceInformation datasService={DataService}/> */}
+
+
                             <div className="row mt-4 d-flex justify-content-center">
                                 <div className="col-lg-3 animate-box" data-animate-effect="fadeInRight">
                                     <div className="services color-2">
@@ -39,7 +34,7 @@ class Service extends React.Component {
                                             <WebIcon  style={{ color: 'rgb(75, 75, 253)', fontSize: 30 }}/>
                                         </span>
                                         <h3>Web Design</h3>
-                                        <p>I creating, maintaining and online applications. </p>
+                                        <p className="pt-4">I creating, maintaining and online applications. </p>
                                         <button type="button" class="btn border-0">
                                             
                                             <span class="text learnmore">Learn more</span>
@@ -53,7 +48,7 @@ class Service extends React.Component {
                                             <PhoneAndroidIcon  style={{ color: 'rgb(75, 75, 253)', fontSize: 30 }}/>
                                         </span>
                                         <h3 className="">Application</h3>
-                                        <p>I creating, maintaining and online applications. </p>
+                                        <p className="pt-4">I creating, maintaining and online applications. </p>
 
                                         <button type="button" class="btn border-0">
                                             <span class="text learnmore">Learn more</span>
@@ -67,7 +62,7 @@ class Service extends React.Component {
                                             <WebIcon  style={{ color: 'rgb(75, 75, 253)', fontSize: 30 }}/>
                                         </span>
                                         <h3 className="">Software</h3>
-                                        <p>I creating, maintaining and online applications. </p>
+                                        <p className="pt-4">I creating, maintaining and online a Software. </p>
 
                                         <button type="button" class="btn border-0">
                                             <span class="text learnmore">Learn more</span>

@@ -30,7 +30,7 @@ function Home() {
                                                 <a href="" class="text-white me-4">
                                                     <LinkedInIcone style={{ color: 'white', backgroundColor: '#3f51b5', borderRadius: '50%'}}/>
                                                 </a>
-                                                <a href="" class="text-white me-4">
+                                                <a href="https://github.com/SamuelineAliance" class="text-white me-4">
                                                     <GitHubIcone style={{ color: 'white', backgroundColor: '#3f51b5', borderRadius: '50%'}}/>
                                                 </a>
                                             </section>
